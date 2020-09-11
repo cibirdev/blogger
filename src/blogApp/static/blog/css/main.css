@@ -1,3 +1,14 @@
-h2 {
-    color: red;
+.container {
+    width: 75%;
+}
+
+.clr {
+    color: #ff4b5c;
+    background-color: #ff4b5c;
+}
+
+@media (max-width:576px) {
+    .container {
+        width: 100%;
+    }
 }
